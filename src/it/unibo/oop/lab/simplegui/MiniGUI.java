@@ -40,9 +40,9 @@ public class MiniGUI {
         //ES 1.01
 
         final JPanel canvas2 = new JPanel();
-        canvas2.setLayout(new BoxLayout(canvas2, BoxLayout.LINE_AXIS));
+        canvas2.setLayout(new BoxLayout(canvas2, BoxLayout.X_AXIS));
         final JButton write = new JButton("Print a random number on standard output");
-        canvas2.add(write, BorderLayout.CENTER);
+        canvas2.add(write);
         canvas.add(canvas2, BorderLayout.CENTER);
 
         //ES1.02
